@@ -5,6 +5,14 @@ CAUSAL SUBSPACE LEARNING WITH COUNTERFACTUAL REGULARIZATION FOR MEDICAL IMAGE AN
 
 
 
+requirements:
+torch>=2.1.0
+torchvision>=0.16.0
+timm>=0.9.12
+scikit-learn>=1.2.0
+numpy>=1.23.0
+tqdm>=4.62.0
+pandas>=1.5.0
 
 Public Dataset:
 LIDC-IDRI: https://cancerimagingarchive.net/collection/lidc-idri/

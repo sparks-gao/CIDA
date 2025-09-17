@@ -7,7 +7,7 @@ CAUSAL SUBSPACE LEARNING WITH COUNTERFACTUAL REGULARIZATION FOR MEDICAL IMAGE AN
 
 
 Public Dataset:
-LIDC-IDRI: https://www.cancerimagingarchive.net/collection/lidc-idri/
+LIDC-IDRI: https://cancerimagingarchive.net/collection/lidc-idri/
 MedMNIST: https://zenodo.org/records/10519652
 @article{medmnistv2,
     title={MedMNIST v2-A large-scale lightweight benchmark for 2D and 3D biomedical image classification},

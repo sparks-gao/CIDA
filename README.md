@@ -1,21 +1,6 @@
 
-# CIDA: Causal & Style-Disentangled Image Training (Modular)
+# CIDA: CAUSAL SUBSPACE LEARNING WITH COUNTERFACTUAL REGULARIZATION FOR MEDICAL IMAGE ANALYSIS
 
-This repository provides a **modular** implementation of CIDA with **ResNet50 as the default backbone**,
-**dual-branch heads** (`zc_head`, `zs_head`), and optional **regularizers**.
-A backbone zoo (via `timm`) is also supported for baseline comparisons.
-
-## Key Features
-- **Backbone**: Default `resnet50`; switchable via `--arch` to test baselines.
-- **Dual Heads**: `zc_head` (causal) and `zs_head` (style) with multiple variants.
-- **Regularizers**: HSIC, MMD, orthogonality, cross-covariance (configurable weights).
-- **Counterfactual Aug**: Fourier low-frequency style mixing (optional).
-- **Training**: AMP, AdamW, metrics logging, best checkpoint export.
-
-## Install
-```bash
-pip install -e .
-```
 
 ## Quickstart
 ```bash
@@ -51,13 +36,3 @@ Run `cida --help` for all arguments, including regularizer weights:
 - `--lambda_hsic`, `--lambda_mmd`, `--lambda_orth`, `--lambda_xcov`
 - `--use_z_both 1` to classify on `[Zc, Zs]` instead of `Zc` only
 - `--use_fourier 1` to enable Fourier style mixing
-
-## Citation
-```bibtex
-@software{cida,
-  title        = {CIDA: Causal & Style-Disentangled Image Training},
-  author       = {Dr.},
-  year         = 2025,
-  url          = {https://github.com/<yourname>/cida}
-}
-```

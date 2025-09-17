@@ -31,9 +31,9 @@ cida   --data_root /path/to/data --num_classes 3   --zc_head mlp --zs_head mlp -
 - `checkpoints/last.pth`, `checkpoints/best.pth`
 - `metrics_epoch.csv`, `final_metrics.json`
 ## Public Dataset
-LIDC-IDRI:https://cancerimagingarchive.net/collection/lidc-idri/
-MedMNIST:https://zenodo.org/records/10519652
-@article{medmnistv2,
+- `LIDC-IDRI:https://cancerimagingarchive.net/collection/lidc-idri/`
+- `MedMNIST:https://zenodo.org/records/10519652`
+- `@article{medmnistv2,
     title={MedMNIST v2-A large-scale lightweight benchmark for 2D and 3D biomedical image classification},
     author={Yang, Jiancheng and Shi, Rui and Wei, Donglai and Liu, Zequan and Zhao, Lin and Ke, Bilian and Pfister, Hanspeter and Ni, Bingbing},
     journal={Scientific Data},
@@ -42,7 +42,7 @@ MedMNIST:https://zenodo.org/records/10519652
     pages={41},
     year={2023},
     publisher={Nature Publishing Group UK London}
-}
+}`
 ## CLI (full)
 Run `cida --help` for all arguments, including regularizer weights:
 - `--lambda_hsic`, `--lambda_mmd`, `--lambda_orth`, `--lambda_xcov`
